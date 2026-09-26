@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { direction: rtl; }
+body { background:#fafafa; font-family:'Cairo', system-ui, sans-serif; }
+.scrollbar-hide::-webkit-scrollbar{display:none}
+* { -webkit-tap-highlight-color: transparent; }
